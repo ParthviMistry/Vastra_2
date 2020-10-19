@@ -1,0 +1,445 @@
+body{
+    overflow:auto;
+}
+/*Navbar*/
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, pink,purple);
+}
+.navbar-brand img{
+    height:40px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.navbar-nav li{
+    padding: 0 10px;;
+}
+.navbar-nav li a{
+    color:white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.navbar-nav li a:hover{
+    color:white;
+    text-align: center;
+    padding: 8px; 
+    background-color: black;
+    border-radius: 10px;
+}
+.fa-bars{
+    color: white;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none;
+}
+.form-inline{
+    float: right;
+}
+
+.btn:hover{
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+/* Responsive */
+@media screen and (max-width: 400px) and (min-width: 200px) {
+    .navbar-brand img{
+        height:0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+
+
+/*Slider*/
+
+.carousel-inner {
+    height: 90vh;
+}
+.carousel-item{
+    height: 60vh;
+}
+.w-100{
+    height: 100vh;
+}
+.carousel-caption h5{
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 75%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+ol {
+    padding: 10px;
+    height: 15%;
+}
+
+
+/* section 2 select function and gender*/
+.selection{
+    background: linear-gradient(to right, pink,purple);
+}
+.form-group{
+    padding: 65px;
+    width: 80%;
+    margin: 10px 30px 10px 30px;
+}
+/* .form-group1{
+    float:right;
+    padding: 80px;
+    width: 40%;
+} */
+@media screen and (max-width: 600px) and (min-width: 250px) {
+    .form-group{
+        padding: 17px;
+        width: 80%;
+        margin: 10px 30px 10px 40px;
+    }    
+}
+
+/* section 3 rent by your role*/
+
+
+.card-img-top{
+    height: 400px;
+    width: 90px;
+    padding: 10px;
+}
+.card-title{
+    border: 3px solid black ;
+    text-align: center;
+    padding: 10px;
+}
+.card-title:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 3px 3px 3px  grey;
+
+}
+
+/*section 4 rent by role occation*/
+
+/*section 5 about us*/
+
+.occasion,.occasion2,.role{
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+.content1{
+    padding: 10px 10px 10px 10px ;
+}
+
+
+/* .container{
+	max-width:1140px;
+	margin:auto;
+	position: relative;
+	min-height: 1px;
+} */
+
+.team{
+	min-height: 100vh;
+	padding:60px 15px;
+	background-color:#22252a; 
+	float: left;
+	width: 100%;
+}
+.team h1{
+	font-size: 36px;
+	font-family: open sans;
+	font-weight: 700;
+	color:#ffffff;
+	margin:0;
+	padding-bottom:60px;
+	text-align: center;
+}
+.team .card{
+	width:25%;
+	float: left;
+	padding:0px 10px;
+}
+.team .card .box {
+	padding:15px;
+	background-color: #2d3035;
+	border-radius:5px;
+	transition: margin 1s ease,box-shadow 1s ease;
+}
+.team .card .box:hover{
+	margin-top:-15px;
+	box-shadow:0px 0px 40px black;
+}
+.team .card .box img{
+	width:150px;
+	display: block;
+	margin:10px auto;
+	border-radius:50%;
+
+}
+
+.team .card .box h4{
+	font-size: 20px;
+	font-family: open sans;
+	margin:20px 0px 10px;
+	color:#ea5e71;
+	text-align: center;
+	font-weight: 700;
+}
+
+.team .card .box h5{
+	font-size:16px;
+	font-family: open sans;
+	font-weight: 600;
+	color:#b9b9b9;
+	margin:0px 0px 15px;
+	text-align: center;
+}
+.team .card .box p{
+	color:#b9b9b9;
+	font-size: 15px;
+	font-family: open sans;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+	padding:0px 20px;
+}
+
+/*responsive*/
+
+@media(max-width: 991px){
+	.team .card{
+		width:50%;
+		margin-bottom:30px;
+	}
+}
+
+@media(max-width:550px){
+	.team .card{
+		width:100%;
+	}
+}
+
+
+/*section 5 contact us*/
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right, pink,purple);
+    /* background:url('img/m1.jpg'); */
+    background-size: cover;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: black;
+}
+.contact .content p{
+    font-weight: 300;
+    color: black;
+}
+.container1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container1 .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container1 .contactinfo .box{
+    position: relative;
+    padding: 20px 0px;
+    display: flex;
+}
+.container1 .contactinfo .box .icon{
+    max-width: 60px;
+    height: 60px;
+    padding: 20px;;
+    background-color: rgb(250, 246, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container1 .contactinfo .text1{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: black;
+    flex-direction: column;
+    font-weight: 300px;
+}
+.container1 .contactinfo .text1 h3{
+    font-weight: 300px;
+    color: black;
+}
+.contactform{
+    width: 40%;
+    padding: 40px;
+    background:white;
+    border-radius: 50px;;
+}
+.contactform h2{
+    font-size: 30px;
+    color:#333;
+    font-weight: 500;
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 16px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactform .inputbox span{
+    position: absolute;
+    left: 0%;
+    padding: 5px 0px;
+    font-size: 16px;
+    margin: 10px 0px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactform .inputbox input[type="submit"]{
+    width: 100px;
+    background:linear-gradient(to right, pink,purple);;
+    color: black;
+    font-weight: 500;;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+@media (max-width: 991px){
+    .contact{
+        padding: 50px;
+    }
+    .container1{
+        flex-direction: column;
+    }
+    .container1 .contactinfo{
+        margin-bottom: 40px;
+    }
+    .container1 .contactinfo, .contactform{
+        width: 100%;
+    }
+}
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+section .section-title {
+    text-align: center;
+    color:white;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: black !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+}
